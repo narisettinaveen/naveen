@@ -1,0 +1,60 @@
+
+<html>
+   
+<head>
+
+    <link rel="stylesheet" href="index.css">
+<body>
+<div class="topnav" >
+  <a href="#home" >Home</a>
+  <a href="#list">List</a>
+  <a href="file:///C:/Users/acer/Desktop/notes.html#" Create A Notes" class="active">Create A Notes</a>
+  <div class="dropdown">
+    <button class="dropbtn">Sort By 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#">Newest First</a>
+      <a href="#">Oldest First</a>
+      
+    </div>
+  </div> 
+  
+   <div class="dropdown">
+    <button class="dropbtn">Filters 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#">Week Wise</a>
+      <a href="#">Month Wise</a>
+	  <a href="#">year Wise</a>
+      
+    </div>
+  </div> 
+ 
+ <li style="float:right" ><form class="example" action="/action_page.php" style="margin:auto;max-width:300px">
+  <input type="text" placeholder="Search.." name="search2">
+  
+</form>
+
+
+  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
+
+<div style="padding-left:16px">
+  
+</div>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+
+</body>
+</html>
